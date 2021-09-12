@@ -1,0 +1,48 @@
+* {
+    box-sizing:border-box;
+}
+
+body{
+    background:#efedd6;
+    font-family:'Roboto', sans-serif;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+   
+    margin:0;
+}
+
+h1{
+    margin:10px;
+}
+.box{
+
+    background:url(siliconvalley2.jpg) rgba(43, 35, 39, 0.3);
+    background-size:cover;
+    color:rgb(148, 45, 45);
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    width:400px;
+    height:200px;
+    margin:10px;
+    border-radius:10px;
+    box-shadow:2px 4px 5px rgba(0,0,0,0.3);
+    transform:translateX(400%);
+    transition:transform 0.4s ease;
+    background-blend-mode:multiply;
+
+}
+
+.box:nth-of-type(even){
+    transform:translateX(-500%);
+}
+
+.box.show {
+    transform:translateX(0);
+}
+
+.box h2 {
+    font-size:45px;
+}
