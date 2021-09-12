@@ -18,13 +18,14 @@ h1{
 }
 .box{
 
-    background:url(siliconvalley2.jpg) rgba(43, 35, 39, 0.3);
+    background:url(siliconvalley2.jpg) rgba(0, 0, 0, 0.555);
     background-size:cover;
-    color:rgb(148, 45, 45);
+    color:rgb(240, 240, 240);
     display:flex;
     align-items:center;
     justify-content:center;
     width:400px;
+    font-weight:800;
     height:200px;
     margin:10px;
     border-radius:10px;
